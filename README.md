@@ -93,7 +93,11 @@ lerobot-calibrate \
 
 ## 训练完成后的现场视频
 
-[观看或下载训练完成后的现场视频（MP4，约 61 MB）](https://github.com/VincentHSS/star-arm-102-act-model/releases/download/v1.0.0/stararm102_act_trained_demo.mp4)。请结合上方三张照片核对设备摆位，再进行数据采集或模型验证。
+点击下方播放器即可在线观看。请结合上方三张照片核对设备摆位，再进行数据采集或模型验证。
+
+https://github.com/user-attachments/assets/cd992f85-65b6-42db-b179-1a9ba4041f03
+
+[下载原视频（MP4，约 61 MB）](https://github.com/VincentHSS/star-arm-102-act-model/releases/download/v1.0.0/stararm102_act_trained_demo.mp4)
 
 ## 单组验证示例
 
