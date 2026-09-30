@@ -1,0 +1,4 @@
+*.tar.gz
+pretrained_model/
+.DS_Store
+__pycache__/
