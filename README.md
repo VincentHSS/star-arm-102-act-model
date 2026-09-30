@@ -6,14 +6,11 @@
 
 ## 下载和放置模型
 
-在 Ubuntu 电脑上执行以下命令。压缩包约 191 MB，校验通过后再解压：
+在 Ubuntu 电脑上执行以下命令，下载并解压模型。压缩包约 191 MB：
 
 ```bash
 curl -L -o stararm102_pick_act_torch271.tar.gz \
   https://github.com/VincentHSS/star-arm-102-act-model/releases/download/v1.0.0/stararm102_pick_act_torch271.tar.gz
-curl -L -o SHA256SUMS.txt \
-  https://github.com/VincentHSS/star-arm-102-act-model/releases/download/v1.0.0/SHA256SUMS.txt
-sha256sum -c SHA256SUMS.txt
 mkdir -p ~/models/stararm102_pick_act_torch271
 tar -xzf stararm102_pick_act_torch271.tar.gz -C ~/models/stararm102_pick_act_torch271
 ls ~/models/stararm102_pick_act_torch271/pretrained_model
@@ -188,7 +185,7 @@ lerobot-record \
 | 相机规格 | 640 × 480，30 FPS |
 | 模型包 | `stararm102_pick_act_torch271.tar.gz`，191,108,326 字节 |
 
-模型压缩包的 SHA-256 校验值见 [SHA256SUMS.txt](SHA256SUMS.txt)。模型适用于训练示范覆盖的任务和工作范围；部署前请完成实机验证。
+模型适用于训练示范覆盖的任务和工作范围；部署前请完成实机验证。
 
 ## 相关资料
 
